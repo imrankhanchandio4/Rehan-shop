@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Rehan Computer Shop</title>
+    <meta name="description" content="Browse laptops, desktops, accessories and computer components at Rehan Computer Shop">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-laptop"></i>
+                <span>Rehan Computer Shop</span>
+            </div>
+            <nav class="nav" id="nav">
+                <a href="index.html">Home</a>
+                <a href="products.html" class="active">Products</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a href="tel:+923001234567" class="phone"><i class="fas fa-phone"></i> +92 300 1234567</a>
+                <button class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Premium computers, laptops & accessories</p>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <div class="container">
+            <!-- Category Filter -->
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="laptop">Laptops</button>
+                <button class="filter-btn" data-filter="desktop">Desktops</button>
+                <button class="filter-btn" data-filter="accessory">Accessories</button>
+                <button class="filter-btn" data-filter="component">Components</button>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Laptops -->
+                <div class="product-card" data-category="laptop">
+                    <div class="product-img"><i class="fas fa-laptop"></i></div>
+                    <div class="product-info">
+                        <span class="category">Laptop</span>
+                        <h3>HP Pavilion 15</h3>
+                        <p>Intel Core i5-13420H, 16GB DDR4, 512GB SSD, 15.6" FHD</p>
+                        <div class="price">Rs. 145,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="laptop">
+                    <div class="product-img"><i class="fas fa-laptop"></i></div>
+                    <div class="product-info">
+                        <span class="category">Laptop</span>
+                        <h3>Dell Inspiron 14</h3>
+                        <p>Intel Core i7-1355U, 16GB RAM, 1TB SSD, 14" FHD+</p>
+                        <div class="price">Rs. 175,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="laptop">
+                    <div class="product-img"><i class="fas fa-laptop"></i></div>
+                    <div class="product-info">
+                        <span class="category">Laptop</span>
+                        <h3>Lenovo IdeaPad Slim 3</h3>
+                        <p>AMD Ryzen 5 7530U, 8GB RAM, 512GB SSD, 15.6"</p>
+                        <div class="price">Rs. 115,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="laptop">
+                    <div class="product-img"><i class="fas fa-laptop"></i></div>
+                    <div class="product-info">
+                        <span class="category">Laptop</span>
+                        <h3>ASUS VivoBook 15</h3>
+                        <p>Intel Core i3-1215U, 8GB RAM, 256GB SSD, 15.6"</p>
+                        <div class="price">Rs. 89,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Desktops -->
+                <div class="product-card" data-category="desktop">
+                    <div class="product-img"><i class="fas fa-desktop"></i></div>
+                    <div class="product-info">
+                        <span class="category">Desktop</span>
+                        <h3>Custom Gaming PC</h3>
+                        <p>Ryzen 5 5600, RTX 4060 8GB, 16GB RAM, 1TB SSD</p>
+                        <div class="price">Rs. 185,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="desktop">
+                    <div class="product-img"><i class="fas fa-desktop"></i></div>
+                    <div class="product-info">
+                        <span class="category">Desktop</span>
+                        <h3>Office Workstation</h3>
+                        <p>Intel Core i5, 16GB RAM, 512GB SSD, Integrated Graphics</p>
+                        <div class="price">Rs. 95,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="desktop">
+                    <div class="product-img"><i class="fas fa-desktop"></i></div>
+                    <div class="product-info">
+                        <span class="category">Desktop</span>
+                        <h3>High-End Gaming Rig</h3>
+                        <p>Ryzen 7 7700X, RTX 4070, 32GB RAM, 2TB SSD</p>
+                        <div class="price">Rs. 320,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Accessories -->
+                <div class="product-card" data-category="accessory">
+                    <div class="product-img"><i class="fas fa-keyboard"></i></div>
+                    <div class="product-info">
+                        <span class="category">Accessories</span>
+                        <h3>Mechanical Keyboard</h3>
+                        <p>RGB Backlit, Blue Switches, Full Size</p>
+                        <div class="price">Rs. 8,500</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="accessory">
+                    <div class="product-img"><i class="fas fa-mouse"></i></div>
+                    <div class="product-info">
+                        <span class="category">Accessories</span>
+                        <h3>Gaming Mouse</h3>
+                        <p>16000 DPI, RGB, 7 Programmable Buttons</p>
+                        <div class="price">Rs. 4,200</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="accessory">
+                    <div class="product-img"><i class="fas fa-headphones"></i></div>
+                    <div class="product-info">
+                        <span class="category">Accessories</span>
+                        <h3>Gaming Headset</h3>
+                        <p>7.1 Surround, Noise Cancelling Mic</p>
+                        <div class="price">Rs. 6,800</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="accessory">
+                    <div class="product-img"><i class="fas fa-tv"></i></div>
+                    <div class="product-info">
+                        <span class="category">Accessories</span>
+                        <h3>24" Full HD Monitor</h3>
+                        <p>75Hz, IPS Panel, HDMI + VGA</p>
+                        <div class="price">Rs. 22,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Components -->
+                <div class="product-card" data-category="component">
+                    <div class="product-img"><i class="fas fa-memory"></i></div>
+                    <div class="product-info">
+                        <span class="category">Components</span>
+                        <h3>16GB DDR4 RAM</h3>
+                        <p>3200MHz, Dual Channel Kit</p>
+                        <div class="price">Rs. 12,500</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="component">
+                    <div class="product-img"><i class="fas fa-hdd"></i></div>
+                    <div class="product-info">
+                        <span class="category">Components</span>
+                        <h3>1TB NVMe SSD</h3>
+                        <p>3500MB/s Read, Gen3</p>
+                        <div class="price">Rs. 18,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+                <div class="product-card" data-category="component">
+                    <div class="product-img"><i class="fas fa-microchip"></i></div>
+                    <div class="product-info">
+                        <span class="category">Components</span>
+                        <h3>RTX 4060 8GB</h3>
+                        <p>Graphics Card, GDDR6</p>
+                        <div class="price">Rs. 85,000</div>
+                        <a href="contact.html" class="btn btn-sm">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <i class="fas fa-laptop"></i>
+                        <span>Rehan Computer Shop</span>
+                    </div>
+                    <p>Your one-stop shop for all computer needs. Quality products, expert service, and competitive prices.</p>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">Laptops</a></li>
+                        <li><a href="products.html">Desktops</a></li>
+                        <li><a href="products.html">Accessories</a></li>
+                        <li><a href="products.html">Components</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Main Market, City Center, Pakistan</li>
+                        <li><i class="fas fa-phone"></i> +92 300 1234567</li>
+                        <li><i class="fas fa-envelope"></i> info@rehancomputershop.com</li>
+                        <li><i class="fas fa-clock"></i> Mon - Sat: 10AM - 9PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Rehan Computer Shop. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
